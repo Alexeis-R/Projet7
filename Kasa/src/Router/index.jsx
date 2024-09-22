@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home";
-import { Logement } from "../pages/Flat";
+import { Logement } from "../pages/Logement";
 import { About }  from "../pages/About";
 import { Error } from "../pages/Error";
 
