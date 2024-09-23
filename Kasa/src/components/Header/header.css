@@ -1,0 +1,32 @@
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 100px;
+}
+@media only screen and (max-width: 425px) {
+  .header_container {
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .header_container_logo img {
+    width: 145px;
+  }
+}
+.header_container_nav_links ul {
+  display: flex;
+  gap: 57px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}
+@media only screen and (max-width: 425px) {
+  .header_container_nav_links ul {
+    font-size: 12px;
+    gap: 26px;
+  }
+}
+.header_container_nav_links a {
+  color: black;
+}/*# sourceMappingURL=header.css.map */

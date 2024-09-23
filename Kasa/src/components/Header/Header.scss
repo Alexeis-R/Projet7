@@ -1,0 +1,31 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 100px;
+    @media only screen and (max-width: 425px){
+       padding: 20px;
+    }
+    &_logo img {
+        @media only screen and (max-width: 425px){
+            width: 145px;
+         }
+    }
+    &_nav_links ul {
+        display: flex;
+        gap: 57px;
+        font-size: 24px;
+        font-weight: 500;
+        cursor: pointer;
+        @media only screen and (max-width: 425px){
+            font-size: 12px;
+            gap: 26px;
+         }
+    }
+
+    &_nav_links a {
+        color: black;
+    }
+
+}
+
