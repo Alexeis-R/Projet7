@@ -1,0 +1,36 @@
+.main_container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 100px;
+  gap: 50px;
+  @media only screen and (max-width: 425px){
+    gap: 22px ;
+    margin: 0;
+}
+}
+
+.thumbs_container {
+  background-color: #f6f6f6;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  margin-bottom: 50px;
+  @media only screen and (max-width: 425px){
+    background-color: white;
+    padding: 0px;
+}
+
+  .thumbs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 50px;
+    @media only screen and (max-width: 425px){
+      display: flex;
+      flex-direction: column;
+      gap: 22px;
+  }
+  }
+}
