@@ -1,12 +1,13 @@
-import React from 'react';
+import React from "react";
+import Layout from "../../components/Layout";
 
-const FlatPage = () => {
+function LogementPage () {
     return (
-        <div>
-            <h1>Logement</h1>
-            <p>Welcome to the logement page!</p>
-        </div>
-    );
+        <Layout>
+          <main className="main_container">
+          </main>
+        </Layout>
+      );
 };
 
-export default FlatPage;
+export default LogementPage;
