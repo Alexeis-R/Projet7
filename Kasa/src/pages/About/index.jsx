@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import Layout from "../../components/Layout";
+import Banner from "../../components/Banner";
+import banner2 from "../../../public/banner_about.jpg";
 
-const About = () => {
-    return (
-        <div>
-            <p>About</p>
-        </div>
-    );
-};
+function About() {
+  return (
+    <Layout>
+      <main className="main_container">
+        <Banner bannerImg={banner2} />
+      </main>
+    </Layout>
+  );
+}
 
 export default About;
