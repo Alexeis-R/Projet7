@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {RourterProvider} from "react-router-dom";
-import { Router } from "./Router";
+import {RouterProvider} from "react-router-dom";
+import  router  from "./Router";
 
 import "./index.scss";
 
