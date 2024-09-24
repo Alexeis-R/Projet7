@@ -1,19 +1,25 @@
 import React from 'react';
-import './Header.css'; 
+import { Link } from 'react-router-dom';
+import logo from '../../../public/logo.jpg';
+import './Header.scss';
 
-const Header = () => {
+function Header () {
     return (
-        <header className="header">
-            <div className="logo">
-                <img src="/path/to/logo.png" alt="Logo" />
+        <header className="header_container">
+            <div className="header_container_logo">
+                <img src={logo} alt="'header_logo" />
             </div>
-            <nav className="navigation">
+            <div className="header_container_nav_links">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <Link to ='/'>Accueil</Link>
+                    </li>
+                    <li>
+                        <Link to ='/about'>A Propos</Link>
+                    </li>
                 </ul>
-            </nav>
+            </div>
+            
         </header>
     );
 };
