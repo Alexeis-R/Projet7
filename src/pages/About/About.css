@@ -3,9 +3,11 @@
   display: flex;
   flex-direction: column;
   gap: 38px;
-  @media only screen and (max-width: 425px) {
+}
+@media only screen and (max-width: 425px) {
+  .collapse_container {
     padding: 0 25px;
     margin: 19px 0px;
     gap: 20px;
   }
-}
+}/*# sourceMappingURL=About.css.map */
