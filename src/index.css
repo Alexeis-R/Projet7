@@ -6,7 +6,9 @@
   font-family: "Montserrat", sans-serif;
 }
 
-ul, li, a {
+ul,
+li,
+a {
   text-decoration: none;
   list-style: none;
 }/*# sourceMappingURL=index.css.map */
