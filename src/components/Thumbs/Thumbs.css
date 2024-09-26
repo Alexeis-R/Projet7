@@ -1,1 +1,24 @@
-/*# sourceMappingURL=Thumbs.css.map */
+.thumbnail {
+  position: relative;
+}
+.thumbnail_img {
+  width: 340px;
+  height: 340px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 425px) {
+  .thumbnail_img {
+    height: 255px;
+  }
+}
+.thumbnail_title {
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  color: white;
+  font-size: 18px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+}/*# sourceMappingURL=Thumbs.css.map */
