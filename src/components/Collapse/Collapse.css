@@ -1,1 +1,43 @@
-/*# sourceMappingURL=Collapse.css.map */
+.collapse_content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.collapse_content p {
+  padding: 10px 10px 0px 10px;
+  font-size: 18px;
+}
+@media only screen and (max-width: 425px) {
+  .collapse_content p {
+    font-size: 13px;
+  }
+}
+
+.collapse button {
+  background-color: #ff6060;
+  border: none;
+  color: white;
+  padding: 10px 20px 10px 15px;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 425px) {
+  .collapse button {
+    font-size: 13px;
+  }
+}
+
+.collapse-icon {
+  transition: transform 0.3s ease;
+}
+
+.collapse-icon.open {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=Collapse.css.map */
