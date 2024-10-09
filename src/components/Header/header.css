@@ -4,14 +4,15 @@
   align-items: center;
   padding: 45px 100px;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .header_container {
     padding: 20px;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .header_container_logo img {
     width: 145px;
+    height: 46px;
   }
 }
 .header_container_nav_links ul {
@@ -19,9 +20,10 @@
   gap: 57px;
   font-size: 24px;
   font-weight: 500;
+  background-color: white;
   cursor: pointer;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
   .header_container_nav_links ul {
     font-size: 12px;
     gap: 26px;

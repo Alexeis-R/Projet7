@@ -3,12 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 45px 100px;
-  @media only screen and (max-width: 425px) {
+  @media only screen and (max-width: 768px) {
     padding: 20px;
   }
   &_logo img {
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 768px) {
       width: 145px;
+      height: 46px;
     }
   }
   &_nav_links ul {
@@ -16,8 +17,9 @@
     gap: 57px;
     font-size: 24px;
     font-weight: 500;
+    background-color: white;
     cursor: pointer;
-    @media only screen and (max-width: 425px) {
+    @media only screen and (max-width: 768px) {
       font-size: 12px;
       gap: 26px;
     }
