@@ -24,7 +24,7 @@ function Collapse({ title, children }) {
       <button onClick={toggle}>
         <span className="collapse-title">{title}</span>
         <FontAwesomeIcon
-          icon={faChevronDown}
+          icon={faChevronUp}
           className={`collapse-icon ${isOpen ? "open" : ""}`}
         />
       </button>

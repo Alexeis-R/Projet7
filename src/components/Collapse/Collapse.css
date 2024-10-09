@@ -1,17 +1,16 @@
 .collapse_content {
-  max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
 
-.collapse_content p {
-  padding: 10px 10px 0px 10px;
+.collapse_content p,
+ul {
+  padding: 15px;
   font-size: 18px;
-}
-@media only screen and (max-width: 425px) {
-  .collapse_content p {
-    font-size: 13px;
-  }
+  background-color: #f6f6f6;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0;
+  font-weight: 400;
 }
 
 .collapse button {
@@ -28,7 +27,7 @@
   font-size: 24px;
   font-weight: 700;
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 796px) {
   .collapse button {
     font-size: 13px;
   }
@@ -39,5 +38,5 @@
 }
 
 .collapse-icon.open {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }/*# sourceMappingURL=Collapse.css.map */
