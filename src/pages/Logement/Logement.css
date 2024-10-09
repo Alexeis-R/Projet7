@@ -1,0 +1,106 @@
+.logement_item {
+  padding: 0px 20px;
+}
+.logement_item_image {
+  width: 100%;
+  height: 415px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+.logement_item_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_content {
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0;
+  }
+}
+.logement_item_content h3 {
+  color: #ff6060;
+  font-size: 36px;
+  font-weight: 500;
+  margin: 30px 0px 0px 0px;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_content h3 {
+    font-size: 18px;
+  }
+}
+.logement_item_content p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_content p {
+    font-size: 14px;
+  }
+}
+.logement_item_content img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+.logement_item_text_tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.logement_item_host_rating {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_host_rating {
+    width: 100%;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: end;
+    justify-content: space-between;
+  }
+}
+.logement_item_collapse {
+  display: flex;
+  gap: 76px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_collapse {
+    flex-direction: column;
+    margin: 0px;
+    gap: 20px;
+    padding-top: 12px;
+  }
+}
+.logement_item_collapse span,
+.logement_item_collapse ul {
+  font-size: 18px;
+}
+.logement_item_collapse > * {
+  width: 100%;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width: 768px) {
+  .logement_item_collapse > * {
+    padding: 0;
+  }
+}
+
+.host {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.host p {
+  color: #ff6060;
+}/*# sourceMappingURL=Logement.css.map */
