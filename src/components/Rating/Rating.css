@@ -1,0 +1,34 @@
+@charset "UTF-8";
+.rating {
+  display: flex;
+  align-items: baseline;
+  width: 196px;
+  height: 38px;
+  justify-content: end;
+}
+@media only screen and (max-width: 768px) {
+  .rating {
+    justify-content: flex-start;
+    align-items: end;
+  }
+}
+
+.star {
+  color: #ccc; /* Couleur des étoiles non remplies */
+  margin-right: 5px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .star {
+    font-size: 25px;
+  }
+}
+
+.star.filled {
+  color: #ff6060; /* Couleur des étoiles remplies */
+}
+@media only screen and (max-width: 768px) {
+  .star.filled {
+    font-size: 25px;
+  }
+}/*# sourceMappingURL=Rating.css.map */
