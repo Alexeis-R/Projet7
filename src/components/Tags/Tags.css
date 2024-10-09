@@ -1,1 +1,32 @@
-/*# sourceMappingURL=Tags.css.map */
+.tags {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .tags {
+    font-size: 10px;
+    background: none;
+  }
+}
+.tags .tag {
+  background-color: #ff6060;
+  width: 115px;
+  height: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0.8;
+}
+@media only screen and (max-width: 768px) {
+  .tags .tag {
+    width: 84px;
+    height: 18px;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=Tags.css.map */
