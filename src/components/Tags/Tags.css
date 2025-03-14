@@ -6,6 +6,7 @@
   color: white;
   font-size: 14px;
   font-weight: 700;
+  background-color: none;
 }
 @media only screen and (max-width: 768px) {
   .tags {
