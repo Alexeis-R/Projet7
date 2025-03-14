@@ -12,6 +12,18 @@ ul {
   margin: 0;
   font-weight: 400;
 }
+@media only screen and (max-width: 796px) {
+  .collapse_content p,
+  ul {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 796px) {
+  .collapse_content li {
+    font-size: 13px;
+  }
+}
 
 .collapse button {
   background-color: #ff6060;

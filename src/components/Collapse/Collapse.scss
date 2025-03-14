@@ -4,15 +4,22 @@
 }
 
 .collapse_content p,
-ul {
+ul  {
   padding: 15px;
   font-size: 18px;
   background-color: #f6f6f6;
   border-radius: 0px 0px 10px 10px;
   margin: 0;
   font-weight: 400;
+  @media only screen and (max-width: 796px) {
+    font-size: 13px;
+  }
 }
-
+.collapse_content li{
+  @media only screen and (max-width: 796px) {
+    font-size: 13px;
+  }
+}
 .collapse button {
   background-color: #ff6060;
   border: none;
